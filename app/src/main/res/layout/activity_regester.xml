@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/tv_Sign_screen"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_screen"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        />
+
+    <EditText
+        android:id="@+id/register_activity_et_email"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_email_24"
+        android:drawablePadding="5dp"
+        android:background="@drawable/borderoftextview"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_margin="10dp"
+        android:hint="@string/email"
+        android:inputType="textWebEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColorHint="#AE0B0B0B"
+        android:textColor="#AE0E0E0E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/register_activity_et_password"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_lock_24"
+        android:drawablePadding="5dp"
+        android:background="@drawable/borderoftextview"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_margin="10dp"
+        android:hint="@string/password"
+        android:inputType="textVisiblePassword"
+        android:textStyle="bold"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="20dp"
+        android:textColorHint="#AE090909"
+        android:textColor="#AE0B0A0A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/register_activity_et_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="50"
+            android:background="@drawable/buttonshape"
+            android:text="@string/login"
+            android:textColor="#000"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:onClick="register"
+            android:id="@+id/register_activity_et_register"
+            android:background="@drawable/buttonshape"
+            app:backgroundTint="@null"
+            android:text="@string/register"
+            android:layout_margin="15dp"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_weight="100"
+            android:id="@+id/bu_language"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="Language"
+            android:text="@string/language_arabic"
+            android:textColor="#000"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_weight="100"
+            android:onClick="LanguageEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:id="@+id/bu_language_to_english"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:text="@string/language_english"
+            android:textColor="#000"
+            app:backgroundTint="@null" />
+
+</LinearLayout>
+</LinearLayout>

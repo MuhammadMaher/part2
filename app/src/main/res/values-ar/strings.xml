@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">part2</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="sign_screen">شاشة الدخول</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">التسجيل</string>
+    <string name="email_required">البريد الالكتروني مطلوب</string>
+    <string name="password_required">كلمة السر مطلوبة</string>
+    <string name="email_at_main_activity">البريد الالكتروني في الشاشة الاساسية</string>
+    <string name="account_created">تم انشاء الحساب</string>
+    <string name="password">كلمة السر</string>
+    <string name="language_arabic">اللغة عربي</string>
+    <string name="language_english">اللغة انجليزي</string>
+</resources>

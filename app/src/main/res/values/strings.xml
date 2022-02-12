@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">part2</string>
+    <string name="email">email</string>
+    <string name="sign_screen">Sign Screen</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="email_required">Email Required!</string>
+    <string name="password_required">Password Required!</string>
+    <string name="email_at_main_activity">Email at main activity</string>
+    <string name="account_created">\"Account Created  \"</string>
+    <string name="password">password</string>
+    <string name="language_arabic">language_arabic</string>
+    <string name="language_english">language_english</string>
+</resources>
